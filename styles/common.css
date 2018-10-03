@@ -1,0 +1,14 @@
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+}
+
+.small-text {
+	font-size: 0.70em;
+} 
+
+#map {
+	height: 100%;
+}

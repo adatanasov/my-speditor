@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+	<meta charset="utf-8">
+	<title>Map</title>
+	<link rel="stylesheet" type="text/css" href="styles/common.css">
+	<link rel="stylesheet" type="text/css" href="styles/map.css">
+</head>
+<body>
+	<div id="floating-panel">
+		<b>Start: </b>
+		<div id="locationField1">
+			<input id="start" placeholder="Enter a city" type="text" />
+		</div>
+		<b>End: </b>
+		<div id="locationField2">
+			<input id="end" placeholder="Enter a city" type="text" />
+		</div>
+		<b>Total: </b>
+		<div id="locationField3">
+			<input id="total" type="text" />
+		</div>
+		<button class="save-map">Save</button>
+	</div>
+	<div id="map"></div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script type="text/javascript" src="scripts/map.js"></script>					
+<script src="https://maps.googleapis.com/maps/api/js?v=3&key=AIzaSyClYOUT5K3jl-ykqnj3lK4tiyIEzsO_RCY&signed_in=true&callback=initMap&libraries=places" async defer></script>
+</body>
+</html>
